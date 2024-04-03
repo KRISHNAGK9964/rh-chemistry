@@ -54,12 +54,12 @@ const Hero = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="z-10 relative flex-1 min-w-[300px] md:min-w-[500px] md:h-[500px]">
-          <Image src="/Banner.png" alt="" layout="fill" className="object-cover" />
+        <div className="z-10  flex-1">
+          <img src="/Banner.png" alt="" className="object-cover" />
         </div>
         <Lines className="hidden lg:block absolute right-0" />
         <BulbIcon className="hidden lg:block absolute top-1/3 left-1/2 opacity-50" />
-        <TLines className="hidden lg:block absolute top-28"/>
+        <TLines className="hidden lg:block absolute top-44 left-14"/>
         <Group className="hidden lg:block absolute bottom-28 "/>
       </div>
       <div className="flex justify-center">
