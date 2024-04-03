@@ -12,7 +12,7 @@ const Section5 = (props: Props) => {
         <div className="flex flex-col gap-4 flex-1">
           <p className="text-white font-bold text-4xl">Join Our Community!</p>
           <p className="text-white">
-            Embark on your NEET preparation journey with R. H. Sir's NEET Test
+            Embark on your NEET preparation journey with RH Sir's NEET Test
             Series. Gain access to top-notch resources, expert guidance, and a
             supportive community dedicated to your success. Enroll now for just
             499/- and take the first step towards realizing your dream of

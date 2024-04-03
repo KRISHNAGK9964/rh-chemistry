@@ -21,7 +21,7 @@ const Section4 = (props: Props) => {
         <div className="px-10">
           <p className="text-4xl font-bold mb-2 ml-12">Our Pricing</p>
           <p className="ml-12 mr-4">
-            Our Pricing Unlock your path to NEET success with RH Sir's NEET Test Series at an unbeatable value. Take
+            Unlock your path to NEET success with RH Sir's NEET Test Series at an unbeatable value. Take
             advantage of our affordable pricing and embark on a journey of learning and growth with us. Join today and
             experience the difference firsthand!
           </p>
@@ -56,7 +56,7 @@ const Section4 = (props: Props) => {
                 </div>
                 <div className="flex border rounded-lg p-2 gap-4">
                   <CheckIcon className="h-6 w-6 flex-shrink-0" />
-                  <p className="">Comprehensive coverage of Biology, Physics, Chemistry and Mathematics</p>
+                  <p className="">Comprehensive coverage of Biology, Physics and Chemistry</p>
                 </div>
                 <div className="flex border rounded-lg p-2 gap-4">
                   <CheckIcon className="h-6 w-6 flex-shrink-0" />

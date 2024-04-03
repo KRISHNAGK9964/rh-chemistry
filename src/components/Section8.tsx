@@ -1,4 +1,11 @@
-import { FacebookIcon, LinkedInIcon, LocationIcon, MailIcon, PhoneIcon, TwitterIcon } from "@/assets/icons";
+import {
+  FacebookIcon,
+  LinkedInIcon,
+  LocationIcon,
+  MailIcon,
+  PhoneIcon,
+  TwitterIcon,
+} from "@/assets/icons";
 import Image from "next/legacy/image";
 import React from "react";
 
@@ -17,7 +24,7 @@ const Section8 = (props: Props) => {
           </div>
           <div className="cursor-pointer flex bg-white rounded-lg  p-2 px-4 gap-2 items-center">
             <MailIcon className="w-5 h-5" />
-            <p className="">hello@skillbridge.com</p>
+            <p className="">contact.scaleyou@gmail.com</p>
           </div>
           <div className="cursor-pointer flex bg-white rounded-lg  p-2 px-4 gap-2 items-center">
             <LocationIcon className="h-5 w-5" />
@@ -26,7 +33,13 @@ const Section8 = (props: Props) => {
         </div>
         <div className="flex flex-col gap-2 pl-4">
           <p className="font-medium">Home</p>
-          <p>NEET Test Series</p>
+          <a
+            href="https://www.courses.rhchemistry.online/learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="hover:underline">NEET Test Series</p>
+          </a>
           <p> Benefits</p>
           <p>Our Testimonials</p>
           <p>Our FAQ</p>
@@ -47,8 +60,9 @@ const Section8 = (props: Props) => {
         </div>
       </div>
       <p className="p-4 text-center font-medium text-gray-500">
-        © 2023 RH Chemsitry, A product of <strong className="font-bold">Scaleyou Innovations LLP</strong>. All rights
-        reserved.
+        © 2023 RH Chemsitry, A product of{" "}
+        <strong className="font-bold">Scaleyou Innovations LLP</strong>. All
+        rights reserved.
       </p>
     </div>
   );

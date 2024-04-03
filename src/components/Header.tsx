@@ -24,18 +24,34 @@ const Header = (props: Props) => {
           <div className="w-12 h-12 relative lg:ml-14">
             <Image src="/Logo.png" alt="" layout="fill" />
           </div>
-          <p className="hidden lg:block font-bold text-lg ml-17 mr-2">RH Chemistry</p>
+          <p className="hidden lg:block font-bold text-lg ml-17 mr-2">
+            RH Chemistry
+          </p>
         </div>
         <div className="flex justify-between items-center">
-          <p
-            className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] hover:border-black rounded-lg"
+          <a
+            href="https://www.courses.rhchemistry.online/learn"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Courses
-          </p>
+            <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] hover:border-black rounded-lg">
+              Courses
+            </p>
+          </a>
           {/* <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">Home</p> */}
           {/* <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">About Us</p> */}
-          <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">Pricing</p>
-          <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">Contact</p>
+          <a
+            href="https://www.courses.rhchemistry.online/learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">
+              Pricing
+            </p>
+          </a>
+          <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">
+            Contact
+          </p>
         </div>
       </div>
       {/* <div className="flex space-x-4 border justify-between">

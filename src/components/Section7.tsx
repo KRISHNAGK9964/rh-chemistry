@@ -37,7 +37,7 @@ const Section7 = (props: Props) => {
           <p className="text-4xl font-bold">
             Frequently <br /> asked Questions
           </p>
-          <p>Still you have any questions? Contact our Team via support@skillbridge.com</p>
+          <p>Still you have any questions? Contact our Team via contact.scaleyou@gmail.com</p>
         </div>
         <div className="flex flex-col gap-4 flex-1">
           <div
@@ -53,7 +53,7 @@ const Section7 = (props: Props) => {
             {expanded1 && (
               <div className="mt-4">
                 <p>
-                  Once you've enrolled in R. H. Sir's NEET Test Series, you'll gain access to our online platform where
+                  Once you've enrolled in RH Sir's NEET Test Series, you'll gain access to our online platform where
                   you can download the test papers. For offline access, you can also request physical copies to be
                   provided.
                 </p>
