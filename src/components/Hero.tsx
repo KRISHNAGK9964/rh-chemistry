@@ -1,4 +1,4 @@
-import { InfinityIcon } from "@/assets/icons";
+import { BulbIcon, Group, InfinityIcon, Lines, TLines } from "@/assets/icons";
 import Image from "next/legacy/image";
 import React from "react";
 
@@ -37,7 +37,7 @@ const Hero = (props: Props) => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col gap-4 lg:ml-11">
+          <div className="flex z-10 flex-col gap-4 lg:ml-11">
             <div className="flex p-4 bg-white gap-4 rounded-lg border border-[#C6C6C6]">
               <div className="">
                 <p className="font-bold text-3xl">+7000</p>
@@ -54,9 +54,13 @@ const Hero = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="relative flex-1 min-w-[300px] md:min-w-[500px] max-w-[600px] h-[300px] md:h-[500px]">
+        <div className="z-10 relative flex-1 min-w-[300px] md:min-w-[500px] md:h-[500px]">
           <Image src="/Banner.png" alt="" layout="fill" className="object-cover" />
         </div>
+        <Lines className="absolute right-0" />
+        <BulbIcon className="absolute top-1/3 left-1/2 opacity-50" />
+        <TLines className="absolute top-28"/>
+        <Group className="absolute bottom-28 "/>
       </div>
       <div className="flex justify-center">
         <div className="p-4 rounded-full bg-[#F6EAFF] translate-y-1/2">

@@ -1,4 +1,5 @@
 import { CheckIcon } from "@/assets/icons";
+import Image from "next/legacy/image";
 import React from "react";
 
 type Props = {};
@@ -6,10 +7,19 @@ type Props = {};
 const Section4 = (props: Props) => {
   return (
     <div>
+      <div className="absolute w-fit">
+        <Image
+          src={"/Item2.png"}
+          alt=""
+          height={150}
+          width={150}
+          className="right-0 absolute"
+        />
+      </div>
       <div className="flex flex-col gap-10 p-10">
-        <div>
-          <p className="text-4xl font-bold mb-2 ml-6">Our Pricing</p>
-          <p className="ml-6 mr-4">
+        <div className="px-10">
+          <p className="text-4xl font-bold mb-2 ml-12">Our Pricing</p>
+          <p className="ml-12 mr-4">
             Our Pricing Unlock your path to NEET success with RH Sir's NEET Test Series at an unbeatable value. Take
             advantage of our affordable pricing and embark on a journey of learning and growth with us. Join today and
             experience the difference firsthand!
