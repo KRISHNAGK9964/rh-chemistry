@@ -18,10 +18,10 @@ const Header = (props: Props) => {
   };
 
   return (
-    <div className="p-2 px-10 flex justify-between w-full overflow-hidden">
+    <div className="p-4 lg:px-10 flex justify-between w-full overflow-hidden">
       <div className="flex items-center flex-1">
         <div className="cursor-pointer flex gap-2 items-center ">
-          <div className="w-12 h-12 relative ml-14">
+          <div className="w-12 h-12 relative lg:ml-14">
             <Image src="/Logo.png" alt="" layout="fill" />
           </div>
           <p className="hidden lg:block font-bold text-lg ml-17 mr-2">RH Chemistry</p>
@@ -38,8 +38,8 @@ const Header = (props: Props) => {
           <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">Contact</p>
         </div>
       </div>
-      <div className="flex justify-center space-x-4">
-        <div>
+      <div className="flex space-x-4 border justify-between">
+
           <button
             type="button"
             className={`p-2 px-4 rounded-lg font-medium ${activeButton === "login" ? "text-white bg-[#6B398D]" : ""}`}
@@ -47,8 +47,7 @@ const Header = (props: Props) => {
           >
             Sign Up
           </button>
-        </div>
-        <div>
+
           <button
             type="button"
             className={`p-2 px-4 rounded-lg font-medium mr-12 ${
@@ -58,7 +57,6 @@ const Header = (props: Props) => {
           >
             Login
           </button>
-        </div>
       </div>
     </div>
   );
