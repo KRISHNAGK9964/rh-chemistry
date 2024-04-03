@@ -43,7 +43,7 @@ const Section2 = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="p-4 flex-1 max-w-[380px] border border-gray-300 rounded-lg mr-12">
+        <div className="p-4 flex-1 max-w-[380px] border bg-white border-gray-300 rounded-lg mr-12">
           <div className="relative w-full aspect-video">
             <Image className="" layout="fill" src={"/textbanner.png"} alt={""} />
           </div>

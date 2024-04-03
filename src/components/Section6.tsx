@@ -6,7 +6,7 @@ type Props = {};
 const Section6 = (props: Props) => {
   return (
     <div>
-      <div className="flex flex-col gap-10 p-10">
+      <div className="flex flex-col bg-white gap-10 p-10">
         <div>
           <p className="text-4xl font-bold mb-2 ml-6">Our Testimonials</p>
           <p className="ml-6">

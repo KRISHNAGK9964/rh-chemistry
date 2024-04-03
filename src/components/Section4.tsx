@@ -6,7 +6,7 @@ type Props = {};
 
 const Section4 = (props: Props) => {
   return (
-    <div>
+    <div className="">
       <div className="absolute w-fit">
         <Image
           src={"/Item2.png"}
@@ -16,7 +16,7 @@ const Section4 = (props: Props) => {
           className="right-0 absolute"
         />
       </div>
-      <div className="flex flex-col gap-10 p-10">
+      <div className="flex flex-col bg-white gap-10 p-10 mx-10 border">
         <div className="px-10">
           <p className="text-4xl font-bold mb-2 ml-12">Our Pricing</p>
           <p className="ml-12 mr-4">

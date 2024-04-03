@@ -1,3 +1,4 @@
+import { Whatsapp } from "@/assets/icons";
 import Image from "next/legacy/image";
 import React from "react";
 
@@ -16,7 +17,7 @@ const Section5 = (props: Props) => {
             499/- and take the first step towards realizing your dream of
             becoming a medical professional.
           </p>
-          <button type="button" className="rounded-lg p-2 px-5 w-fit bg-white">Join Whats App Group</button>
+          <button type="button" className="rounded-lg p-2 px-5 w-fit bg-white"><Whatsapp className="w-6 h-6 inline-flex mr-2" />Join WhatsApp Group </button>
         </div>
         <div className="flex-1 -m-6 hidden lg:block">
             <div className="relative h-full overflow-visible">

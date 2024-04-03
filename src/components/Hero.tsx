@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
               </a>
               <a href="https://www.courses.rhchemistry.online/learn" target="_blank" rel="noopener noreferrer">
                 <button type="button" className="p-2 px-4 font-medium rounded-lg bg-white">
-                  View Pricing
+                  Try Free Test series
                 </button>
               </a>
             </div>
@@ -40,16 +40,16 @@ const Hero = (props: Props) => {
           <div className="flex z-10 flex-col gap-4 lg:ml-11">
             <div className="flex p-4 bg-white gap-4 rounded-lg border border-[#C6C6C6]">
               <div className="">
-                <p className="font-bold text-3xl">+7000</p>
+                <p className="font-bold text-3xl">+300</p>
                 <p className="font-medium">Students Already Enrolled</p>
               </div>
               <div className="">
                 <p className="font-bold text-3xl">30</p>
-                <p className="font-medium">Students Already Enrolled</p>
+                <p className="font-medium">Online & Offline Papers</p>
               </div>
               <div className="flex flex-col">
                 <InfinityIcon className="flex-1" />
-                <p className="font-medium">Students Already Enrolled</p>
+                <p className="font-medium">Revisions</p>
               </div>
             </div>
           </div>
