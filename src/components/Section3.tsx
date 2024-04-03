@@ -8,13 +8,7 @@ const Section3 = (props: Props) => {
   return (
     <div className="">
       <div className="absolute right-0 w-fit">
-        <Image
-          src={"/Item1.png"}
-          alt=""
-          height={200}
-          width={200}
-          className="right-0 absolute"
-        />
+        <Image src={"/Item1.png"} alt="" height={200} width={200} className="right-0 absolute" />
       </div>
       <div className="flex flex-col gap-10 p-10 bg-[rgb(250,250,251,1)]">
         <div>
@@ -26,8 +20,8 @@ const Section3 = (props: Props) => {
             <div>
               <p className="text-lg font-medium mb-1">Structured Preparation</p>
               <p>
-                Our test series offers a well-organised study plan, ensuring
-                systematic coverage of all NEET syllabus topics.
+                Our test series offers a well-organised study plan, ensuring systematic coverage of all NEET syllabus
+                topics.
               </p>
             </div>
             <div className="flex justify-end">
@@ -41,9 +35,8 @@ const Section3 = (props: Props) => {
             <div>
               <p className="text-lg font-medium mb-1">Real Exam Simulation</p>
               <p>
-                Real Exam Simulation Experience the real NEET exam environment
-                with our accurately simulated test papers, helping you build
-                confidence for the actual exam day
+                Real Exam Simulation Experience the real NEET exam environment with our accurately simulated test
+                papers, helping you build confidence for the actual exam day
               </p>
             </div>
             <div className="flex justify-end">
@@ -52,13 +45,13 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4">
+          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
             <div className="text-5xl font-bold text-right ">03</div>
             <div>
               <p className="text-lg font-medium mb-1">Performance Tracking</p>
               <p>
-                Monitor your progress effectively with detailed performance
-                analytics, identifying strengths and areas needing improvement.
+                Monitor your progress effectively with detailed performance analytics, identifying strengths and areas
+                needing improvement.
               </p>
             </div>
             <div className="flex justify-end">
@@ -72,9 +65,8 @@ const Section3 = (props: Props) => {
             <div>
               <p className="text-lg font-medium mb-1">Time Management Skills</p>
               <p>
-                Sharpen your time management skills by practicing with timed
-                tests, enhancing your ability to answer questions efficiently
-                within the exam timeframe.
+                Sharpen your time management skills by practicing with timed tests, enhancing your ability to answer
+                questions efficiently within the exam timeframe.
               </p>
             </div>
             <div className="flex justify-end">
@@ -88,9 +80,8 @@ const Section3 = (props: Props) => {
             <div>
               <p className="text-lg font-medium mb-1">Personalised Feedback</p>
               <p>
-                Receive personalized feedback on your performance, highlighting
-                areas where you excel and offering tailored suggestions for
-                improvement.
+                Receive personalized feedback on your performance, highlighting areas where you excel and offering
+                tailored suggestions for improvement.
               </p>
             </div>
             <div className="flex justify-end">
@@ -99,14 +90,13 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4">
+          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
             <div className="text-5xl font-bold text-right ">06</div>
             <div>
               <p className="text-lg font-medium mb-1">Expert Guidance</p>
               <p>
-                Expert Guidance Benefit from expert guidance and insights from
-                experienced educators like RH Sir, who provide valuable tips
-                and strategies for tackling the NEET exam effectively.
+                Expert Guidance Benefit from expert guidance and insights from experienced educators like RH Sir, who
+                provide valuable tips and strategies for tackling the NEET exam effectively.
               </p>
             </div>
             <div className="flex justify-end">
