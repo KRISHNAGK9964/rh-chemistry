@@ -24,14 +24,11 @@ const Section6 = (props: Props) => {
             </p>
             <div className="flex justify-between">
               <div className="flex w-fit gap-2 items-center">
-                <div className="relative w-6 h-6">
-                  <Image src={"/Testimonial1.png"} layout="fill" className="" />
+                <div className="relative w-6 h-6 rounded">
+                  <Image src={"/pranavbhat.png"} layout="fill" className="rounded" />
                 </div>
-                <p className="font-semibold">Sneha Patil</p>
+                <p className="font-semibold">Pranav Bhat</p>
               </div>
-              <button type="button" className="bg-gray-200 rounded-lg p-2 px-4">
-                Read Full Story
-              </button>
             </div>
           </div>
           <div className="flex w-3/4 lg:w-1/3 flex-col gap-3 p-6 border  border-gray-250 p-4">
@@ -46,11 +43,8 @@ const Section6 = (props: Props) => {
                 <div className="relative w-6 h-6">
                   <Image src={"/Testimonial2.png"} layout="fill" className="" />
                 </div>
-                <p className="font-semibold">Rahul Deshmukh</p>
+                <p className="font-semibold">Laxman Hampiholi</p>
               </div>
-              <button type="button" className="bg-gray-200 rounded-lg p-2 px-4">
-                Read Full Story
-              </button>
             </div>
           </div>
           <div className="flex w-3/4 lg:w-1/3 flex-col gap-3 p-6 border  border-gray-250 p-4 mr-14">
@@ -65,11 +59,8 @@ const Section6 = (props: Props) => {
                 <div className="relative w-6 h-6">
                   <Image src={"/Testimonial3.png"} layout="fill" className="" />
                 </div>
-                <p className="font-semibold">Priya sharma</p>
+                <p className="font-semibold">Shounak</p>
               </div>
-              <button type="button" className="bg-gray-200 rounded-lg p-2 px-4">
-                Read Full Story
-              </button>
             </div>
           </div>
           <div className="flex w-3/4 lg:w-1/3  flex-col gap-3 p-6 border  border-gray-250 p-4">
@@ -84,11 +75,8 @@ const Section6 = (props: Props) => {
                 <div className="relative w-6 h-6">
                   <Image src={"/Testimonial4.png"} layout="fill" className="" />
                 </div>
-                <p className="font-semibold">Amit Gupta</p>
+                <p className="font-semibold">Venkatesh</p>
               </div>
-              <button type="button" className="bg-gray-200 rounded-lg p-2 px-4">
-                Read Full Story
-              </button>
             </div>
           </div>
         </div>

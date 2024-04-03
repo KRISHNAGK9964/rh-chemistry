@@ -1,5 +1,6 @@
 import { CheckIcon } from "@/assets/icons";
 import Image from "next/legacy/image";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -27,7 +28,9 @@ const Section4 = (props: Props) => {
         </div>
         <div>
           <div className="">
+            <Link href={"https://www.courses.rhchemistry.online/learn"}>
             <p className="bg-[#6B398D] text-center p-2 text-white rounded-lg mb-4">Pro Plan</p>
+            </Link>
 
             <p className="text-5xl font-bold text-center">₹499</p>
           </div>
@@ -96,7 +99,9 @@ const Section4 = (props: Props) => {
               </div>
             </div>
           </div>
+          <Link href={"https://www.courses.rhchemistry.online/learn"}>
           <p className="bg-[#6B398D] text-center p-2 text-white rounded-lg mb-4">Get Started</p>
+          </Link>
         </div>
       </div>
     </div>

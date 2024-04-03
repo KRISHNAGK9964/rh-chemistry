@@ -20,10 +20,6 @@ const Section8 = (props: Props) => {
             <p className="">hello@skillbridge.com</p>
           </div>
           <div className="cursor-pointer flex bg-white rounded-lg  p-2 px-4 gap-2 items-center">
-            <PhoneIcon className="w-5 h-5" />
-            <p className="">+91 9113948974</p>
-          </div>
-          <div className="cursor-pointer flex bg-white rounded-lg  p-2 px-4 gap-2 items-center">
             <LocationIcon className="h-5 w-5" />
             <p className="">Somewhere in the Chemistryverse</p>
           </div>

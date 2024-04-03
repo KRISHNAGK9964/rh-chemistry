@@ -38,7 +38,7 @@ const Header = (props: Props) => {
           <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">Contact</p>
         </div>
       </div>
-      <div className="flex space-x-4 border justify-between">
+      {/* <div className="flex space-x-4 border justify-between">
 
           <button
             type="button"
@@ -57,7 +57,7 @@ const Header = (props: Props) => {
           >
             Login
           </button>
-      </div>
+      </div> */}
     </div>
   );
 };
