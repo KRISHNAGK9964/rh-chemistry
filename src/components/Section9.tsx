@@ -52,8 +52,8 @@ const Section9 = () => {
   };
 
   return (
-    <div className="relative">
-      <div className=" text-[#911C82] p-5 rounded-md">
+    <div className="relative max-w-screen-xl mx-auto">
+      <div className=" text-[#911C82] rounded-md pr-4 py-4">
         <h2 className="text-3xl font-bold mb-5 ml-5">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div className="ml-5">

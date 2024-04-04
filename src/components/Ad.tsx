@@ -11,9 +11,9 @@ const Ad = (props: Props) => {
 
   return (
     <a href="https://www.courses.rhchemistry.online/learn" onClick={handleAdClick}>
-      <div className="mx-4 my-2 rounded-lg bg-[#911C82] flex justify-center gap-4 p-2">
+      <div className="mx-2 md:mx-4 my-2 rounded-lg bg-[#911C82] line-clamp-1 text-nowrap flex justify-center items-center gap-4 p-2">
         <p className="text-white">Course offer 🌟 Sale Ends Soon, Get It Now</p>
-        <ArrowRightIcon />
+        <ArrowRightIcon className="w-5 h-5 " />
       </div>
     </a>
   );

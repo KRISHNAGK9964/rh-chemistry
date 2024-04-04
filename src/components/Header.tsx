@@ -18,17 +18,17 @@ const Header = (props: Props) => {
   };
 
   return (
-    <div className="p-4 lg:px-10 flex justify-between w-full overflow-hidden">
+    <div className="p-2 lg:p-4 lg:px-10 flex justify-between w-full overflow-hidden">
       <div className="flex items-center flex-1">
         <div className="cursor-pointer flex gap-2 items-center ">
-          <div className="w-12 h-12 relative lg:ml-14">
+          <div className="w-10 h-10 rounded-lg overflow-hidden lg:w-12 lg:h-12 relative lg:ml-14">
             <Image src="/Logo.png" alt="" layout="fill" />
           </div>
           <p className="hidden lg:block font-bold text-lg ml-17 mr-2">
             RH Chemistry
           </p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="ml-auto md:ml-0 flex justify-between items-center">
           <a
             href="https://www.courses.rhchemistry.online/learn"
             target="_blank"

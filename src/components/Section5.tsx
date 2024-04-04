@@ -7,8 +7,8 @@ type Props = {};
 
 const Section5 = (props: Props) => {
   return (
-    <div className="p-10">
-      <div className="flex relative p-6 bg-[#6B398D] rounded-lg max-w-screen-md mx-auto">
+    <div className="p-4 md:p-6 lg:p-10">
+      <div className="flex relative p-4 lg:p-6 bg-[#6B398D] rounded-lg max-w-screen-md mx-auto">
         <div className="flex flex-col gap-4 flex-1">
           <p className="text-white font-bold text-4xl">Join Our Community!</p>
           <p className="text-white">

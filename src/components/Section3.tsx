@@ -8,14 +8,14 @@ const Section3 = (props: Props) => {
   return (
     <div className="">
       <div className="absolute right-0 w-fit">
-        <Image src={"/Item1.png"} alt="" height={200} width={200} className="right-0 absolute" />
+        <Image src={"/Item1.png"} alt="" height={150} width={150} className="right-0 absolute" />
       </div>
-      <div className="flex flex-col gap-10 p-10 bg-[rgb(250,250,251,1)]">
+      <div className="flex flex-col gap-10 py-10 bg-[rgb(250,250,251,1)]">
         <div>
           <p className="text-4xl font-bold mb-2 ml-11">Benefits</p>
         </div>
-        <div className="flex flex-wrap justify-center gap-10">
-          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border  border-gray-250 p-3 mr-10 bg-white">
+        <div className="flex flex-wrap justify-center gap-10 items-center px-4 lg:px-10 md:px-6">
+          <div className="flex w-[100%] rounded-lg lg:w-1/4 flex-col gap-3 border ml-auto md:ml-0  border-gray-250 p-3 md:mr-10 bg-white">
             <div className="text-5xl font-bold text-right ">01</div>
             <div>
               <p className="text-lg font-medium mb-1">Structured Preparation</p>
@@ -30,7 +30,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
+          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">02</div>
             <div>
               <p className="text-lg font-medium mb-1">Real Exam Simulation</p>
@@ -45,7 +45,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
+          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">03</div>
             <div>
               <p className="text-lg font-medium mb-1">Performance Tracking</p>
@@ -60,7 +60,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-10">
+          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto border-gray-250  p-4 md:mr-10">
             <div className="text-5xl font-bold text-right ">04</div>
             <div>
               <p className="text-lg font-medium mb-1">Time Management Skills</p>
@@ -75,7 +75,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
+          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">05</div>
             <div>
               <p className="text-lg font-medium mb-1">Personalised Feedback</p>
@@ -90,7 +90,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-3/4 lg:w-1/4 bg-white flex-col gap-3 border  border-gray-250  p-4 mr-12">
+          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">06</div>
             <div>
               <p className="text-lg font-medium mb-1">Expert Guidance</p>

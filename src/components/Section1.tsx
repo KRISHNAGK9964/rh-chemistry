@@ -7,7 +7,7 @@ type Props = {}
 
 const Section1 = (props: Props) => {
   return (
-    <div className='bg-[#F6EAFF] rounded-b-[100px]'>
+    <div className='bg-[#F6EAFF] rounded-b-[40px] md:rounded-b-[60px] lg:rounded-b-[100px]'>
         <Ad />
         <Header />
         <Hero />

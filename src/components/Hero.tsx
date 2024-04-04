@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
           <div className="flex flex-col gap-8 w-full">
             <div className="flex flex-col gap-8 lg:ml-11">
               <div className="cursor-pointer flex bg-white rounded-lg p-2 px-2 gap-2 items-center">
-                <div className="w-12 h-12 relative">
+                <div className="g:w-12 lg:h-12 relative">
                   <Image src="/Logo.png" alt="" layout="fill" />
                 </div>
                 <p className="font-bold text-4xl">
@@ -34,7 +34,7 @@ const Hero = (props: Props) => {
                 >
                   <button
                     type="button"
-                    className="p-2 px-4 bg-[#6B398D] text-white font-medium rounded-lg"
+                    className="p-2 shadow px-4 bg-[#6B398D] text-white font-medium rounded-lg"
                   >
                     Explore Test Series
                   </button>
@@ -46,7 +46,7 @@ const Hero = (props: Props) => {
                 >
                   <button
                     type="button"
-                    className="p-2 px-4 font-medium rounded-lg bg-white"
+                    className="p-2 px-4 shadow font-medium rounded-lg bg-white"
                   >
                     Try Free Test series
                   </button>
@@ -56,21 +56,21 @@ const Hero = (props: Props) => {
             <div className="flex z-10 flex-col gap-4 lg:ml-11">
               <div className="flex p-4 bg-white gap-4 rounded-lg border border-[#C6C6C6]">
                 <div className="">
-                  <p className="font-bold text-3xl">+300</p>
-                  <p className="font-medium">Students Already Enrolled</p>
+                  <p className="font-semibold lg:font-bold text-3xl">+300</p>
+                  <p className="font-normal lg:font-medium">Students Already Enrolled</p>
                 </div>
                 <div className="">
-                  <p className="font-bold text-3xl">30</p>
-                  <p className="font-medium">Online & Offline Papers</p>
+                  <p className="font-semibold lg:font-bold text-3xl">30</p>
+                  <p className="font-normal lg:font-medium">Online & Offline Papers</p>
                 </div>
                 <div className="flex flex-col">
-                  <InfinityIcon className="flex-1" />
-                  <p className="font-medium">Revisions</p>
+                  <p className="font-semibold lg:font-bold text-3xl scale-150 translate-x-1/4">∞</p>
+                  <p className="font-normal lg:font-medium">Revisions</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="z-10 w-full flex items-center justify-center lg:ml-40">
+          <div className="z-10 w-full flex items-center justify-center pt-12 lg:ml-40">
             <img src="/Banner.png" alt="" className="object-cover" />
           </div>
         </div>

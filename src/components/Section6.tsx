@@ -6,12 +6,12 @@ type Props = {};
 const Section6 = (props: Props) => {
   return (
     <div>
-      <div className="flex flex-col bg-white gap-10 p-10">
+      <div className="flex flex-col gap-10 p-4 md:p-6 lg:p-10">
         <div>
           <p className="text-4xl font-bold mb-2 ml-6">Our Testimonials</p>
         </div>
-        <div className="flex flex-wrap justify-center gap-5">
-          <div className="flex w-full md:w-3/4 lg:w-1/3 flex-col gap-3 p-6 border border-gray-250 p-4 mr-7">
+        <div className="flex flex-wrap justify-center md:justify-around gap-10">
+          <div className="flex w-full md:w-3/4 lg:w-1/3 bg-white rounded-lg flex-col gap-3  border border-gray-250 p-4 md:mr-7">
             <p>
               "RH Sir's NEET Test Series has been a game-changer for me! The comprehensive study material, daily
               discussions, and personalised feedback helped me stay on track with my preparation. I can confidently say
@@ -27,7 +27,7 @@ const Section6 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full md:w-3/4 lg:w-1/3 flex-col gap-3 p-6 border border-gray-250 p-4 mr-7">
+          <div className="flex w-full md:w-3/4 lg:w-1/3 bg-white rounded-lg flex-col gap-3  border border-gray-250 p-4 md:mr-7">
             <p>
               "I can't thank RH Sir's NEET Test Series enough for helping me crack the NEET exam. The detailed
               explanations, peer learning community, and simulated exam environment truly mimicked the real test
@@ -43,7 +43,7 @@ const Section6 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full md:w-3/4 lg:w-1/3 flex-col gap-3 p-6 border border-gray-250 p-4 mr-7">
+          <div className="flex w-full md:w-3/4 lg:w-1/3 bg-white rounded-lg flex-col gap-3  border border-gray-250 p-4 md:mr-7">
             <p>
               "Enrolling in RH Sir's NEET Test Series was the best decision I made for my NEET preparation. The
               explanations in Kannada were incredibly helpful for me as a Karnataka student. The daily discussions and
@@ -59,7 +59,7 @@ const Section6 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full md:w-3/4 lg:w-1/3 flex-col gap-3 p-6 border border-gray-250 p-4 mr-7">
+          <div className="flex w-full md:w-3/4 lg:w-1/3 bg-white rounded-lg flex-col gap-3  border border-gray-250 p-4 md:mr-7">
             <p>
               "I am immensely grateful to RH Sir's NEET Test Series for guiding me through my NEET journey. The
               affordable pricing combined with top-notch resources made it accessible for me to prepare thoroughly. The

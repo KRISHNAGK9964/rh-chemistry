@@ -31,9 +31,9 @@ const Section7 = (props: Props) => {
   };
 
   return (
-    <div className="p-10">
-      <div className="flex max-w-screen-lg mx-auto flex-col gap-5 lg:flex-row">
-        <div className="flex flex-col flex-1">
+    <div className="p-4 md:p-6 lg:p-10">
+      <div className="flex max-w-screen-xl mx-auto flex-col gap-5 lg:flex-row">
+        <div className="flex flex-col flex-1 px-4">
           <p className="text-4xl font-bold">
             Frequently <br /> asked Questions
           </p>
