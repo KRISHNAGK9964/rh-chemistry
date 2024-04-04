@@ -64,7 +64,7 @@ const Section2 = (props: Props) => {
               </button>
             </a>
             <p className="text-sm text-gray-600">
-              <span className="text-gray-800 font-bold">23450</span> Enrolled
+              <span className="text-gray-800 font-bold">300</span> Enrolled
             </p>
           </div>
         </div>
