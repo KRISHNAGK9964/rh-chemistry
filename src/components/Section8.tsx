@@ -7,6 +7,7 @@ import {
   TwitterIcon,
 } from "@/assets/icons";
 import Image from "next/legacy/image";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -46,9 +47,15 @@ const Section8 = (props: Props) => {
         </div>
         <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <p className="font-medium">Policies</p>
-          <p>Privacy Policy</p>
-          <p>Refund Policy</p>
-          <p>Terms and Conditions</p>
+          <Link href="/privacy-policy">
+            <p className="hover:underline">Privacy Policy</p>
+          </Link>
+          <Link href="/refund-policy">
+            <p className="hover:underline">Refund Policy</p>
+          </Link>
+          <Link href="/terms-and-conditions">
+            <p className="hover:underline">Terms and Conditions</p>
+          </Link>
         </div>
         <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <p className="font-semibold">Social Profiles</p>
