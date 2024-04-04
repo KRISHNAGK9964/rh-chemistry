@@ -1,4 +1,11 @@
-import { FacebookIcon, LinkedInIcon, LocationIcon, MailIcon, PhoneIcon, TwitterIcon } from "@/assets/icons";
+import {
+  FacebookIcon,
+  LinkedInIcon,
+  LocationIcon,
+  MailIcon,
+  PhoneIcon,
+  TwitterIcon,
+} from "@/assets/icons";
 import Image from "next/legacy/image";
 import React from "react";
 
@@ -26,12 +33,22 @@ const Section8 = (props: Props) => {
         </div>
         <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <p className="font-medium">Home</p>
-          <a href="https://www.courses.rhchemistry.online/learn" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.courses.rhchemistry.online/learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p className="hover:underline">NEET Test Series</p>
           </a>
           <p>Benefits</p>
           <p>Our Testimonials</p>
           <p>Our FAQ</p>
+        </div>
+        <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
+          <p className="font-medium">Policies</p>
+          <p>Privacy Policy</p>
+          <p>Refund Policy</p>
+          <p>Terms and Conditions</p>
         </div>
         <div className="flex flex-col gap-2 pl-4 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <p className="font-semibold">Social Profiles</p>
@@ -49,8 +66,9 @@ const Section8 = (props: Props) => {
         </div>
       </div>
       <p className="p-4 text-center font-medium text-gray-500">
-        © 2023 RH Chemsitry, A product of <strong className="font-bold">Scaleyou Innovations LLP</strong>. All rights
-        reserved.
+        © 2024 RH Chemistry Test Series, A product of{" "}
+        <strong className="font-bold">Scaleyou Innovations LLP</strong>. All
+        rights reserved.
       </p>
     </div>
   );
