@@ -1,17 +1,19 @@
 import {
   FacebookIcon,
+  InstagramIcon,
   LinkedInIcon,
   LocationIcon,
   MailIcon,
   PhoneIcon,
   TwitterIcon,
+  Whatsapp,
+  YoutubeIcon,
 } from "@/assets/icons";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 
-type Props = {
-};
+type Props = {};
 
 const Section8 = ({}: Props) => {
   return (
@@ -61,15 +63,33 @@ const Section8 = ({}: Props) => {
         <div className="flex flex-col gap-2 pl-2 items-center md:items-start md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <p className="font-semibold">Social Profiles</p>
           <div className="flex gap-2">
-            <div className="rounded-lg p-2 bg-gray-200">
-              <FacebookIcon className="w-5 h-5" />
-            </div>
-            <div className="rounded-lg p-2 bg-gray-200">
-              <TwitterIcon className="w-5 h-5" />
-            </div>
-            <div className="rounded-lg p-2 bg-gray-200">
-              <LinkedInIcon className="w-5 h-5" />
-            </div>
+            <a
+              href="https://www.instagram.com/rhchemistry"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-lg p-2 bg-gray-200">
+                <InstagramIcon className="w-5 h-5" />
+              </div>
+            </a>
+            <a
+              href="https://www.youtube.com/@RHchemistry"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-lg p-2 bg-gray-200">
+                <YoutubeIcon className="w-5 h-5" />
+              </div>
+            </a>
+            <a
+              href="https://chat.whatsapp.com/BqcHowSSRZd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-lg p-2 bg-gray-200">
+                <Whatsapp className="w-5 h-5" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
