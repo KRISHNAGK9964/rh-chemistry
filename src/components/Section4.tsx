@@ -9,7 +9,7 @@ const Section4 = (props: Props) => {
   return (
     <div className="">
       <div className="absolute w-fit pl-2 md:pl-6 lg:pl-10">
-        <Image src={"/Item2.png"} alt="" height={100} width={100} className="" />
+        <Image src={"/Item2.png"} alt="icon" height={100} width={100} className="" />
       </div>
       <div className="flex flex-col bg-white gap-10 py-10 p-2 md:p-6 lg:p-10 mx-4 md:mx-6 lg:mx-10 border">
         <div className="px-4 md:px-6 lg:px-10">

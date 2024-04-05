@@ -22,7 +22,7 @@ const Section8 = ({}: Props) => {
         <div className="flex flex-col gap-2 md:flex-row md:gap-4 lg:flex-col lg:gap-2">
           <div className="cursor-pointer flex bg-white rounded-lg p-2 px-4 gap-2 items-center">
             <div className="w-6 h-6 md:w-10 md:h-10 relative">
-              <Image src="/Logo.png" alt="" layout="fill" />
+              <Image src="/Logo.png" alt="logo" layout="fill" />
             </div>
             <p className="">RH Chemistry</p>
           </div>

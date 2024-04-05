@@ -24,7 +24,7 @@ const Header = ({handleContactBtnClick}: Props) => {
       <div className="flex items-center flex-1">
         <div className="cursor-pointer flex gap-2 items-center ">
           <div className="w-10 h-10 rounded-lg overflow-hidden lg:w-12 lg:h-12 relative lg:ml-14">
-            <Image src="/Logo.png" alt="" layout="fill" />
+            <Image src="/Logo.png" alt="logo" layout="fill" />
           </div>
           <p className="hidden lg:block font-bold text-lg ml-17 mr-2">
             RH Chemistry

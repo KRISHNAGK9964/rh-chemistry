@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="Unlock Your Creative Potential with NEET TEST Series. Learn from Industry Expert and Enhance Your Skills. Led by the esteemed educator Raghavendra Hegde, this comprehensive test series is designed to equip you with the knowledge and skills needed to ace the NEET exam with confidence."
+          content="Unlock Your Creative Potential with NEET TEST Series. Learn from Industry Expert and Enhance Your Skills. Led by the esteemed educator Raghavendra Hegde"
         />
         <meta property="og:title" content="RH Chemistry" />
         <meta

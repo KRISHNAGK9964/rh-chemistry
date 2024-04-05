@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
             <div className="flex flex-col gap-8 lg:ml-11">
               <div className="cursor-pointer flex bg-white rounded-lg p-2 px-2 gap-2 items-center">
                 <div className="g:w-12 lg:h-12 relative">
-                  <Image src="/Logo.png" alt="" layout="fill" />
+                  <Image src="/Logo.png" alt="logo" layout="fill" />
                 </div>
                 <p className="text-2xl md:text-3xl font-bold lg:text-4xl">
                   <span className="text-[#6B398D]">Unlock</span> Your Creative
@@ -71,7 +71,7 @@ const Hero = (props: Props) => {
             </div>
           </div>
           <div className="z-10 w-full flex items-center justify-center pt-12 lg:ml-40">
-            <img src="/Banner.png" alt="" className="object-cover" />
+            <img src="/Banner.png" alt="banner" className="object-cover" />
           </div>
         </div>
         <Lines className="hidden lg:block absolute right-0" />
@@ -82,7 +82,7 @@ const Hero = (props: Props) => {
       <div className="flex justify-center">
         <div className="p-4 rounded-full bg-[#F6EAFF] translate-y-1/2">
           <div className="relative h-28 w-28 rounded-full bg-[#F6EAFF]">
-            <Image src={"/scroll.png"} alt="" layout="fill" className="" />
+            <Image src={"/scroll.png"} alt="scroll button" layout="fill" className="" />
           </div>
         </div>
       </div>

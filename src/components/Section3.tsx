@@ -8,7 +8,7 @@ const Section3 = (props: Props) => {
   return (
     <div className="">
       <div className="absolute right-0 w-fit">
-        <Image src={"/Item1.png"} alt="" height={150} width={150} className="right-0 absolute" />
+        <Image src={"/Item1.png"} alt="icon" height={150} width={150} className="right-0 absolute" />
       </div>
       <div className="flex flex-col gap-10 py-10 bg-[rgb(250,250,251,1)]">
         <div>

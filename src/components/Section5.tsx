@@ -18,12 +18,23 @@ const Section5 = (props: Props) => {
             499/- and take the first step towards realizing your dream of
             becoming a medical professional.
           </p>
-          <Link href={"https://chat.whatsapp.com/FRGIXOY3p9SBzbqG2P9jQR"} type="button" className="rounded-lg p-2 px-5 w-fit bg-white"><Whatsapp className="w-6 h-6 inline-flex mr-2" />Join WhatsApp Group </Link>
+          <Link
+            href={"https://chat.whatsapp.com/FRGIXOY3p9SBzbqG2P9jQR"}
+            type="button"
+            className="rounded-lg p-2 px-5 w-fit bg-white"
+          >
+            <Whatsapp className="w-6 h-6 inline-flex mr-2" />
+            Join WhatsApp Group{" "}
+          </Link>
         </div>
         <div className="flex-1 -m-6 hidden lg:block">
-            <div className="relative h-full overflow-visible">
-                <img src={"/Banner2.png"} alt="" className="object-cover w-full h-full overflow-visible"/>
-            </div>
+          <div className="relative h-full overflow-visible">
+            <img
+              src={"/Banner2.png"}
+              alt="banner"
+              className="object-cover w-full h-full overflow-visible"
+            />
+          </div>
         </div>
       </div>
     </div>

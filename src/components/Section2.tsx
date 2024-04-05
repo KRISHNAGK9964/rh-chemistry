@@ -45,7 +45,7 @@ const Section2 = (props: Props) => {
         </div>
         <div className="bg-white p-2 py-4 rounded-md lg:p-4 lg:max-w-lg lg:border lg:bg-white lg:border-gray-300 lg:rounded-lg lg:mt-0 mt-4 mb-4">
           <div className="relative w-full aspect-video">
-            <Image className="" layout="fill" src={"/textbanner.png"} alt={""} />
+            <Image className="" layout="fill" src={"/textbanner.png"} alt="banner" />
           </div>
           <div className="flex justify-between py-2">
             <p className="font-bold text-lg">NEET Test Series</p>
