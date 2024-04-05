@@ -82,7 +82,7 @@ const Section8 = ({}: Props) => {
               </div>
             </a>
             <a
-              href="https://chat.whatsapp.com/BqcHowSSRZd"
+              href="https://chat.whatsapp.com/BqcHowSSRZdEiVXJRCJwWs"
               target="_blank"
               rel="noopener noreferrer"
             >
