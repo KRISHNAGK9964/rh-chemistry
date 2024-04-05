@@ -8,7 +8,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="RH Chemistry | Unlock Your Creative Potential" />
+        <meta
+          name="title"
+          content="RH Chemistry | Unlock Your Creative Potential"
+        />
         <meta
           name="description"
           content="Unlock Your Creative Potential with NEET TEST Series. Learn from Industry Expert and Enhance Your Skills. Led by the esteemed educator Raghavendra Hegde, this comprehensive test series is designed to equip you with the knowledge and skills needed to ace the NEET exam with confidence."
@@ -30,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="keywords"
           content="RH Chemistry, NEET, NEET TEST, Raghavendra Hegde, Test Series, Medical, AIMS, Chemistry, Biology, Physics, PUC"
         />
-        <title>RH Chemistry</title>
+        <title>RH Chemistry | Unlock Your Creative Potential</title>
         <link rel="icon" href="/Logo.png" sizes="any" />
       </Head>
       <Component {...pageProps} />;
