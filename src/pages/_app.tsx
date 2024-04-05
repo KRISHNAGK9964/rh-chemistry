@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>RH Chemistry | Unlock Your Creative Potential</title>
         <link rel="icon" href="/Logo.png" sizes="any" />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
