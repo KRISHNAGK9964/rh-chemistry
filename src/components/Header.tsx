@@ -2,9 +2,11 @@ import Image from "next/legacy/image";
 import React, { useState } from "react";
 import Link from "next/link";
 
-type Props = {};
+type Props = {
+  handleContactBtnClick: () => void;
+};
 
-const Header = (props: Props) => {
+const Header = ({handleContactBtnClick}: Props) => {
   const [activeButton, setActiveButton] = useState<string>("login");
 
   const handleLoginClick = () => {
@@ -49,7 +51,7 @@ const Header = (props: Props) => {
               Pricing
             </p>
           </a>
-          <p className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">
+          <p onClick={handleContactBtnClick} className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">
             Contact
           </p>
         </div>

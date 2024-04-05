@@ -15,7 +15,7 @@ const Hero = (props: Props) => {
                 <div className="g:w-12 lg:h-12 relative">
                   <Image src="/Logo.png" alt="" layout="fill" />
                 </div>
-                <p className="font-bold text-4xl">
+                <p className="text-2xl md:text-3xl font-bold lg:text-4xl">
                   <span className="text-[#6B398D]">Unlock</span> Your Creative
                   Potential
                 </p>

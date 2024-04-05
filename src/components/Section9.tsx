@@ -1,6 +1,8 @@
 import React, { useState, ChangeEvent } from "react";
 
-const Section9 = () => {
+type Props = {
+}
+const Section9 = React.forwardRef<HTMLDivElement>(({}:Props,ref) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -52,7 +54,7 @@ const Section9 = () => {
   };
 
   return (
-    <div className="relative max-w-screen-xl mx-auto">
+    <div ref={ref}  className="relative max-w-screen-xl mx-auto">
       <div className=" text-[#911C82] rounded-md pr-4 py-4">
         <h2 className="text-3xl font-bold mb-5 ml-5">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -122,6 +124,6 @@ const Section9 = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Section9;

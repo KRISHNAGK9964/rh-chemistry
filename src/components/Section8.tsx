@@ -10,9 +10,10 @@ import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
+type Props = {
+};
 
-const Section8 = (props: Props) => {
+const Section8 = ({}: Props) => {
   return (
     <div className="p-4 md:p-6 lg:p-10 border-t-2 pb-4">
       <div className="flex justify-between gap-2 flex-col lg:flex-row ">
@@ -33,7 +34,7 @@ const Section8 = (props: Props) => {
           </div>
         </div>
         <div className="flex flex-col gap-2 pl-2 items-center md:items-start md:flex-row md:gap-4 lg:flex-col lg:gap-2">
-          <p className="font-medium">Home</p>
+          <p className="font-semibold">Home</p>
           <a
             href="https://www.courses.rhchemistry.online/learn"
             target="_blank"
@@ -46,7 +47,7 @@ const Section8 = (props: Props) => {
           <p>Our FAQ</p>
         </div>
         <div className="flex flex-col gap-2 pl-2 items-center md:items-start md:flex-row md:gap-4 lg:flex-col lg:gap-2">
-          <p className="font-medium">Policies</p>
+          <p className="font-semibold">Policies</p>
           <Link href="/privacy-policy">
             <p className="hover:underline">Privacy Policy</p>
           </Link>

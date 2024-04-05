@@ -37,7 +37,10 @@ const Section7 = (props: Props) => {
           <p className="text-4xl font-bold">
             Frequently <br /> asked Questions
           </p>
-          <p>Still you have any questions? Contact our Team via contact.scaleyou@gmail.com</p>
+          <p>
+            Still you have any questions? Contact our Team via
+            contact.scaleyou@gmail.com
+          </p>
         </div>
         <div className="flex flex-col gap-4 flex-1">
           <div
@@ -48,14 +51,19 @@ const Section7 = (props: Props) => {
           >
             <div className="flex items-center justify-between">
               <p>How do I access the NEET test papers?</p>
-              {expanded1 ? <CloseIcon className="w-6 h-6" /> : <PlusIcon className="w-6 h-6" />}
+              {expanded1 ? (
+                <CloseIcon className="w-6 h-6" />
+              ) : (
+                <PlusIcon className="w-6 h-6" />
+              )}
             </div>
             {expanded1 && (
               <div className="mt-4">
-                <p>
-                  Once you've enrolled in RH Sir's NEET Test Series, you'll gain access to our online platform where
-                  you can download the test papers. For offline access, you can also request physical copies to be
-                  provided.
+                <p className="text-justify">
+                  Once you've enrolled in RH Sir's NEET Test Series, you'll gain
+                  access to our online platform where you can download the test
+                  papers. For offline access, you can also request physical
+                  copies to be provided.
                 </p>
               </div>
             )}
@@ -68,11 +76,18 @@ const Section7 = (props: Props) => {
           >
             <div className="flex items-center justify-between">
               <p>Are the explanations provided in Kannada only?</p>
-              {expanded2 ? <CloseIcon className="w-6 h-6" /> : <PlusIcon className="w-6 h-6" />}
+              {expanded2 ? (
+                <CloseIcon className="w-6 h-6" />
+              ) : (
+                <PlusIcon className="w-6 h-6" />
+              )}
             </div>
             {expanded2 && (
               <div className="mt-4">
-                <p>The explanations are provided in both English and Kannada languages.</p>
+                <p className="text-justify">
+                  The explanations are provided in both English and Kannada
+                  languages.
+                </p>
               </div>
             )}
           </div>
@@ -84,11 +99,18 @@ const Section7 = (props: Props) => {
           >
             <div className="flex items-center justify-between">
               <p>How often are the test papers updated?</p>
-              {expanded3 ? <CloseIcon className="w-6 h-6" /> : <PlusIcon className="w-6 h-6" />}
+              {expanded3 ? (
+                <CloseIcon className="w-6 h-6" />
+              ) : (
+                <PlusIcon className="w-6 h-6" />
+              )}
             </div>
             {expanded3 && (
               <div className="mt-4">
-                <p>The test papers are updated on a regular basis to ensure relevance and accuracy.</p>
+                <p className="text-justify">
+                  The test papers are updated on a regular basis to ensure
+                  relevance and accuracy.
+                </p>
               </div>
             )}
           </div>
@@ -100,11 +122,18 @@ const Section7 = (props: Props) => {
           >
             <div className="flex items-center justify-between">
               <p>Can I discuss doubts with other students?</p>
-              {expanded4 ? <CloseIcon className="w-6 h-6" /> : <PlusIcon className="w-6 h-6" />}
+              {expanded4 ? (
+                <CloseIcon className="w-6 h-6" />
+              ) : (
+                <PlusIcon className="w-6 h-6" />
+              )}
             </div>
             {expanded4 && (
               <div className="mt-4">
-                <p>Yes, you can participate in discussion forums to interact with other students and clarify doubts.</p>
+                <p className="text-justify">
+                  Yes, you can participate in discussion forums to interact with
+                  other students and clarify doubts.
+                </p>
               </div>
             )}
           </div>
@@ -116,11 +145,18 @@ const Section7 = (props: Props) => {
           >
             <div className="flex items-center justify-between">
               <p>Will I receive feedback on my performance?</p>
-              {expanded5 ? <CloseIcon className="w-6 h-6" /> : <PlusIcon className="w-6 h-6" />}
+              {expanded5 ? (
+                <CloseIcon className="w-6 h-6" />
+              ) : (
+                <PlusIcon className="w-6 h-6" />
+              )}
             </div>
             {expanded5 && (
               <div className="mt-4">
-                <p>Yes, you will receive feedback on your performance to help you improve.</p>
+                <p className="text-justify">
+                  Yes, you will receive feedback on your performance to help you
+                  improve.
+                </p>
               </div>
             )}
           </div>

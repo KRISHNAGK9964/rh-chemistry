@@ -14,7 +14,7 @@ const Section4 = (props: Props) => {
       <div className="flex flex-col bg-white gap-10 py-10 p-2 md:p-6 lg:p-10 mx-4 md:mx-6 lg:mx-10 border">
         <div className="px-4 md:px-6 lg:px-10">
           <p className="text-4xl font-bold mb-2 ml-12">Our Pricing</p>
-          <p className="ml-4 md:ml-12 md:mr-8">
+          <p className="ml-4 md:ml-12 md:mr-8 text-justify">
             Unlock your path to NEET success with RH Sir's NEET Test Series at an unbeatable value. Take advantage of
             our affordable pricing and embark on a journey of learning and growth with us. Join today and experience the
             difference firsthand!

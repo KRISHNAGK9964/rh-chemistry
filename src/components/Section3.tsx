@@ -15,7 +15,7 @@ const Section3 = (props: Props) => {
           <p className="text-4xl font-bold mb-2 ml-11">Benefits</p>
         </div>
         <div className="flex flex-wrap justify-center gap-10 items-center px-4 lg:px-10 md:px-6">
-          <div className="flex w-[100%] rounded-lg lg:w-1/4 flex-col gap-3 border ml-auto md:ml-0  border-gray-250 p-3 md:mr-10 bg-white">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 flex-col gap-3 border ml-auto md:ml-0  border-gray-250 p-3 md:mr-10 bg-white">
             <div className="text-5xl font-bold text-right ">01</div>
             <div>
               <p className="text-lg font-medium mb-1">Structured Preparation</p>
@@ -30,7 +30,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">02</div>
             <div>
               <p className="text-lg font-medium mb-1">Real Exam Simulation</p>
@@ -45,7 +45,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">03</div>
             <div>
               <p className="text-lg font-medium mb-1">Performance Tracking</p>
@@ -60,7 +60,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto border-gray-250  p-4 md:mr-10">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto border-gray-250  p-4 md:mr-10">
             <div className="text-5xl font-bold text-right ">04</div>
             <div>
               <p className="text-lg font-medium mb-1">Time Management Skills</p>
@@ -75,7 +75,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 bg-white flex-col gap-3 border ml-auto md:ml-0  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">05</div>
             <div>
               <p className="text-lg font-medium mb-1">Personalised Feedback</p>
@@ -90,7 +90,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
+          <div className="flex w-full text-justify rounded-lg lg:w-1/4 bg-white flex-col gap-3 border mr-auto  border-gray-250  p-4 md:mr-12">
             <div className="text-5xl font-bold text-right ">06</div>
             <div>
               <p className="text-lg font-medium mb-1">Expert Guidance</p>

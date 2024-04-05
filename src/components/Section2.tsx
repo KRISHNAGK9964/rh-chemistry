@@ -16,7 +16,7 @@ const Section2 = (props: Props) => {
               <div className="rounded-full border bg-white p-4 shadow-md">
                 <Icon1 className="w-6 h-6" />
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 <span className="font-bold text-base">30 Papers Online/Offline:</span> Practice makes perfect! With our
                 extensive collection of 30 papers, available both online and offline, you'll have ample opportunities to
                 hone your skills.
@@ -26,7 +26,7 @@ const Section2 = (props: Props) => {
               <div className="rounded-full border bg-white p-4 shadow-md">
                 <Icon2 className="w-6 h-6" />
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 <span className="font-bold text-base">Daily NEET Paper Discussion:</span> Stay ahead of the curve with
                 our daily NEET paper discussions. Engage in insightful conversations, dissecting each question to
                 understand its nuances and underlying concepts.
@@ -36,7 +36,7 @@ const Section2 = (props: Props) => {
               <div className="rounded-full border bg-white p-4 shadow-md">
                 <Icon3 className="w-6 h-6" />
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 <span className="font-bold text-base">Explanations in Kannada:</span> Breaking down barriers, we offer
                 explanations in Kannada, ensuring that language is never a hindrance in your learning journey.
               </p>
@@ -52,7 +52,7 @@ const Section2 = (props: Props) => {
             <p className="">⭐⭐⭐⭐⭐</p>
           </div>
           <p className="text-xl font-semibold text-gray-600">NEET Test Series: One Step Closer To The Goal</p>
-          <p className="text-gray-500 py-2">
+          <p className="text-gray-500 py-2 text-justify">
             NEET Test Series is your ultimate companion on the journey to success. Led by the esteemed educator{" "}
             <span className="font-bold"> Raghavendra Hegde</span>, this comprehensive test series is designed to equip
             you with the knowledge and skills needed to ace the NEET exam with confidence.

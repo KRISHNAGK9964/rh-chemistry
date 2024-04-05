@@ -11,7 +11,7 @@ const Section5 = (props: Props) => {
       <div className="flex relative p-4 lg:p-6 bg-[#6B398D] rounded-lg max-w-screen-md mx-auto">
         <div className="flex flex-col gap-4 flex-1">
           <p className="text-white font-bold text-4xl">Join Our Community!</p>
-          <p className="text-white">
+          <p className="text-white text-justify">
             Embark on your NEET preparation journey with RH Sir's NEET Test
             Series. Gain access to top-notch resources, expert guidance, and a
             supportive community dedicated to your success. Enroll now for just
