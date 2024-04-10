@@ -94,9 +94,7 @@ const Section8 = ({}: Props) => {
         </div>
       </div>
       <p className="p-4 text-center font-medium text-gray-500">
-        © 2024 RH Chemistry Test Series, A product of{" "}
-        <strong className="font-bold">Scaleyou Innovations LLP</strong>. All
-        rights reserved.
+        © 2024 RH Chemistry. All rights reserved.
       </p>
     </div>
   );
