@@ -20,8 +20,8 @@ const Header = ({ handleContactBtnClick }: Props) => {
   };
 
   return (
-    <div className="p-2 lg:p-4 lg:px-10 flex justify-between w-full overflow-hidden">
-      <div className="flex items-center flex-1">
+    <div className="p-2 lg:p-4 lg:px-10 flex w-full overflow-hidden flex-col md:flex-row gap-2">
+      <div className="flex items-center">
         <div className="cursor-pointer flex gap-2 items-center ">
           <div className="w-10 h-10 rounded-lg overflow-hidden lg:w-12 lg:h-12 relative lg:ml-14">
             <Image src="/Logo.png" alt="logo" layout="fill" />
@@ -57,20 +57,20 @@ const Header = ({ handleContactBtnClick }: Props) => {
           >
             Contact
           </p>
-          <a
-            href="https://www.courses.rhchemistry.online/learn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button
-              type="button"
-              className="p-2 shadow bg-[#6B398D] text-white font-medium rounded-lg"
-            >
-              🌟 Free Webinar! 🌟
-            </button>
-          </a>
         </div>
       </div>
+      <a
+        href="https://www.courses.rhchemistry.online/learn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          type="button"
+          className="p-2 shadow bg-[#6B398D] text-white font-medium rounded-lg w-full"
+        >
+          🌟 Free Webinar! 🌟
+        </button>
+      </a>
       {/* <div className="flex space-x-4 border justify-between">
 
           <button
