@@ -6,7 +6,7 @@ type Props = {
   handleContactBtnClick: () => void;
 };
 
-const Header = ({handleContactBtnClick}: Props) => {
+const Header = ({ handleContactBtnClick }: Props) => {
   const [activeButton, setActiveButton] = useState<string>("login");
 
   const handleLoginClick = () => {
@@ -51,9 +51,24 @@ const Header = ({handleContactBtnClick}: Props) => {
               Pricing
             </p>
           </a>
-          <p onClick={handleContactBtnClick} className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg">
+          <p
+            onClick={handleContactBtnClick}
+            className="cursor-pointer p-2 lg:px-4 font-medium hover:bg-[#F1F1F3] rounded-lg"
+          >
             Contact
           </p>
+          <a
+            href="https://www.courses.rhchemistry.online/learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              type="button"
+              className="p-2 shadow bg-[#6B398D] text-white font-medium rounded-lg"
+            >
+              🌟 Free Webinar! 🌟
+            </button>
+          </a>
         </div>
       </div>
       {/* <div className="flex space-x-4 border justify-between">
