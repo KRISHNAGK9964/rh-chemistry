@@ -26,7 +26,7 @@ const Section4 = (props: Props) => {
               <p className="bg-[#6B398D] text-center p-2 text-white rounded-lg mb-4 shadow-md">Pro Plan</p>
             </Link>
 
-            <p className="text-5xl font-bold text-center">₹499</p>
+            <p className="text-5xl font-bold text-center">₹999</p>
           </div>
           <div className="">
             <p className="text-center mt-12 font-semibold">Available Features</p>

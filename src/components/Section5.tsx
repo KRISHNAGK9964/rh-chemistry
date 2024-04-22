@@ -15,7 +15,7 @@ const Section5 = (props: Props) => {
             Embark on your NEET preparation journey with RH Sir's NEET Test
             Series. Gain access to top-notch resources, expert guidance, and a
             supportive community dedicated to your success. Enroll now for just
-            499/- and take the first step towards realizing your dream of
+            999/- and take the first step towards realizing your dream of
             becoming a medical professional.
           </p>
           <Link
