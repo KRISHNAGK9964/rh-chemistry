@@ -1,12 +1,10 @@
-// pages/api/counter.js
-
 import fs from "fs";
 import { NextApiRequest, NextApiResponse } from "next";
 import path from "path";
 
 const filePath = path.join(process.cwd(), "public", "counter.json");
 
-export default (req: NextApiRequest, res: NextApiResponse) => {
+export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "GET") {
     try {
       const data = fs.readFileSync(filePath, "utf8");
