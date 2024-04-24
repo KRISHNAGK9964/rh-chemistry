@@ -5,27 +5,38 @@ import React, { useEffect, useState } from "react";
 type Props = {};
 
 const Hero = (props: Props) => {
-  const [counter, setCounter] = useState<number>(0);
+  const [counter, setCounter] = useState<number>(1028);
+
+  // useEffect(() => {
+  //   const fetchCounter = async () => {
+  //     try {
+  //       const response = await fetch("/api/counter");
+  //       if (!response.ok) {
+  //         throw new Error("Failed to fetch counter");
+  //       }
+  //       const data = await response.json();
+  //       setCounter(data.counter);
+  //     } catch (error) {
+  //       console.error("Error fetching counter:", error);
+  //     }
+  //   };
+
+  //   fetchCounter();
+
+  //   const intervalId = setInterval(fetchCounter, 35 * 60 * 1000);
+
+  //   return () => clearInterval(intervalId);
+  // }, []);
 
   useEffect(() => {
-    const fetchCounter = async () => {
-      try {
-        const response = await fetch("/api/counter");
-        if (!response.ok) {
-          throw new Error("Failed to fetch counter");
-        }
-        const data = await response.json();
-        setCounter(data.counter);
-      } catch (error) {
-        console.error("Error fetching counter:", error);
-      }
-    };
+    const intervalId = setInterval(() => {
+      // Increment the counter by a random value between 2 and 3
+      setCounter(
+        (prevCounter) => prevCounter + Math.floor(Math.random() * 2) + 2
+      );
+    }, 30 * 60 * 1000); // 30 minutes
 
-    fetchCounter();
-
-    const intervalId = setInterval(fetchCounter, 35 * 60 * 1000);
-
-    return () => clearInterval(intervalId);
+    return () => clearInterval(intervalId); // Cleanup on component unmount
   }, []);
 
   return (
