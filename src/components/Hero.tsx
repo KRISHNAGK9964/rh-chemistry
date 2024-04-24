@@ -1,10 +1,33 @@
 import { BulbIcon, Group, InfinityIcon, Lines, TLines } from "@/assets/icons";
 import Image from "next/legacy/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 type Props = {};
 
 const Hero = (props: Props) => {
+  const [counter, setCounter] = useState<number>(0);
+
+  useEffect(() => {
+    const fetchCounter = async () => {
+      try {
+        const response = await fetch("/api/counter");
+        if (!response.ok) {
+          throw new Error("Failed to fetch counter");
+        }
+        const data = await response.json();
+        setCounter(data.counter);
+      } catch (error) {
+        console.error("Error fetching counter:", error);
+      }
+    };
+
+    fetchCounter();
+
+    const intervalId = setInterval(fetchCounter, 35 * 60 * 1000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div className="px-4 md:px-10 mb-14">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-between">
@@ -56,17 +79,31 @@ const Hero = (props: Props) => {
             <div className="flex z-10 flex-col gap-4 lg:ml-11">
               <div className="flex p-4 bg-white gap-4 rounded-lg border border-[#C6C6C6]">
                 <div className="">
-                  <p className="font-semibold lg:font-bold text-3xl">+300</p>
-                  <p className="font-normal lg:font-medium">Students Already Enrolled</p>
+                  <p className="font-semibold lg:font-bold text-3xl">+1000</p>
+                  <p className="font-normal lg:font-medium">
+                    Students Already Enrolled
+                  </p>
                 </div>
                 <div className="">
                   <p className="font-semibold lg:font-bold text-3xl">30</p>
-                  <p className="font-normal lg:font-medium">Online & Offline Papers</p>
+                  <p className="font-normal lg:font-medium">NEET Mock Papers</p>
                 </div>
                 <div className="flex flex-col">
-                  <p className="font-semibold lg:font-bold text-3xl scale-150 translate-x-1/4">∞</p>
+                  <p className="font-semibold lg:font-bold text-3xl scale-150 translate-x-1/4">
+                    ∞
+                  </p>
                   <p className="font-normal lg:font-medium">Revisions</p>
                 </div>
+              </div>
+            </div>
+            <div className="flex z-10 flex-col gap-4 lg:ml-11">
+              <div className="flex p-4 items-center justify-center bg-white gap-4 rounded-lg border border-red-500">
+                <p className="font-normal text-xl lg:font-medium text-red-500">
+                  Live Counter of People who have taken tests!
+                </p>
+                <p className="font-semibold lg:font-bold text-3xl animate-bounce">
+                  {counter}
+                </p>
               </div>
             </div>
           </div>
@@ -82,7 +119,12 @@ const Hero = (props: Props) => {
       <div className="flex justify-center">
         <div className="p-4 rounded-full bg-[#F6EAFF] translate-y-1/2">
           <div className="relative h-28 w-28 rounded-full bg-[#F6EAFF]">
-            <Image src={"/scroll.png"} alt="scroll button" layout="fill" className="" />
+            <Image
+              src={"/scroll.png"}
+              alt="scroll button"
+              layout="fill"
+              className=""
+            />
           </div>
         </div>
       </div>
