@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       );
       res.status(200).json({ counter });
     } catch (error) {
-      res.status(500).json({ error: "Internal Server Error" });
+      res.status(500).json({ error: error });
     }
   } else {
     res.setHeader("Allow", ["GET"]);
